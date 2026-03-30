@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fokus — Tu Temporizador Pomodoro Premium</title>
+  <meta name="description" content="Fokus es la app de productividad Pomodoro más elegante y efectiva. Divide tu trabajo en sesiones de enfoque y descansos. Disponible para Android." />
+  <meta name="theme-color" content="#12112A" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fokus — Productividad Premium" />
+  <meta property="og:description" content="Conquista tu procrastinación con la técnica Pomodoro. Temporizador inteligente, gestión de tareas y estadísticas en una sola app premium." />
+  <meta property="og:image" content="assets/img/hero_mockup.png" />
+  <meta property="og:type" content="website" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/img/app_icon.png" type="image/png" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="assets/img/app_icon.png" alt="Fokus" class="nav-icon" />
+        <span>Fokus</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Funciones</a></li>
+        <li><a href="#how-it-works">Cómo Funciona</a></li>
+        <li><a href="#screenshots">App</a></li>
+        <li><a href="privacy.html">Privacidad</a></li>
+      </ul>
+      <a href="#download" class="btn-nav">Descargar</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Técnica Pomodoro · Productividad Premium
+        </div>
+        <h1 class="hero-title">
+          Conquista tu<br />
+          <span class="gradient-text">tiempo.</span><br />
+          Sin excusas.
+        </h1>
+        <p class="hero-subtitle">
+          Fokus transforma la manera en que trabajas. Con la técnica Pomodoro, sesiones de enfoque medibles, alarmas inteligentes y estadísticas reales — deja de procrastinar y empieza a lograr.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.35.19.74.24 1.12.16l12.93-7.47-2.79-2.79-11.26 10.1zM.32 1.22C.12 1.6 0 2.05 0 2.56v18.88c0 .51.12.96.32 1.34L.43 23l10.58-10.58v-.25L.43 1.6l-.11-.38zM20.23 9.85l-2.74-1.58-3.08 3.08 3.08 3.08 2.76-1.59c.79-.45.79-1.19-.02-1.99zM4.3.08L17.23 7.55 14.44 10.34 3.18.24C3.54.05 3.95.01 4.3.08z"/></svg>
+            Descargar en Google Play
+          </a>
+          <a href="#how-it-works" class="btn-secondary">
+            Ver cómo funciona →
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>25 min</strong>
+            <span>de enfoque puro</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>7</strong>
+            <span>paletas premium</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>libre y sin cuentas</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-glow"></div>
+        <img src="assets/img/hero_mockup.png" alt="Fokus app timer screen" class="hero-phone" />
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-indicator">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features" id="features">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Funcionalidades</span>
+        <h2>Todo lo que necesitás<br /><span class="gradient-text">para ser imparable</span></h2>
+        <p>Diseñado para la persona seria que quiere resultados reales, no una simple app de reloj.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card feature-card--large">
+          <div class="feature-icon">⏱️</div>
+          <h3>Temporizador Pomodoro Inteligente</h3>
+          <p>Cada ciclo incluye enfoque + tolerancia + descanso. El reloj avanza solo entre fases con alarmas sonoras configurables. Ciclo tras ciclo, sin interrupciones.</p>
+          <div class="feature-tags">
+            <span>25 / 5 min</span>
+            <span>Configurable</span>
+            <span>Auto-avance</span>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h3>Gestión de Tareas CRUD</h3>
+          <p>Creá, editá y eliminá tareas con sub-sesiones individuales. Cada Pomodoro dentro de una tarea tiene su propio tiempo configurable.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Estadísticas Reales</h3>
+          <p>Pomodoros completados, descansos, minutos de foco y racha de días. Visualiza tu progreso en tiempo real sin complicaciones.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌈</div>
+          <h3>7 Paletas Premium</h3>
+          <p>Midnight, Ocean, Aurora, Ember, Sakura, Forest y Titanium. Personalizá tu experiencia y hacé tuya la app con un solo toque.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔔</div>
+          <h3>Alarmas del Sistema</h3>
+          <p>Elegí tu tipo de alarma: notificación, alarma, tono o silencioso. Sonidos nativos del celular que funcionan siempre, hasta con la pantalla apagada.</p>
+        </div>
+        <div class="feature-card feature-card--large">
+          <div class="feature-icon">🌙</div>
+          <h3>Modo Oscuro & Claro + Idiomas</h3>
+          <p>Cambiá entre modo oscuro y claro cuando quieras. Disponible en Español e Inglés. Diseño que se adapta a vos, no al revés.</p>
+          <div class="feature-tags">
+            <span>🌑 Oscuro</span>
+            <span>☀️ Claro</span>
+            <span>🇪🇸 ES</span>
+            <span>🇺🇸 EN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Método Probado</span>
+        <h2>La Técnica Pomodoro,<br /><span class="gradient-text">perfeccionada</span></h2>
+        <p>Desarrollada por Francesco Cirillo en 1980, es la técnica más efectiva para combatir la procrastinación. Fokus la moderniza.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon">🎯</div>
+            <h3>Elegí tu tarea</h3>
+            <p>Creá la tarea, definí cuántos Pomodoros estimás necesitar y configurá el tiempo de cada sesión entre 5 y 60 minutos.</p>
+          </div>
+        </div>
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-arrow">↓</div>
+        </div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon">🔥</div>
+            <h3>25 min de foco puro</h3>
+            <p>Sin distracciones. El temporizador avisa con 3 golpecitos al iniciar y con un tono de alerta 10 segundos antes de terminar.</p>
+          </div>
+        </div>
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-arrow">↓</div>
+        </div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon">☕</div>
+            <h3>5 min de descanso</h3>
+            <p>Transición automática post-Pomodoro (5 secondos de tolerancia) y luego descanso calculado como 1/5 del tiempo de enfoque.</p>
+          </div>
+        </div>
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-arrow">↓</div>
+        </div>
+        <div class="step">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon">🏆</div>
+            <h3>Repite y ganás</h3>
+            <p>Al completar todos los Pomodoros de una tarea, se marca automáticamente como completada. Tus estadísticas crecen. Vos crecés.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SCREENSHOTS ========== -->
+  <section class="screenshots" id="screenshots">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">La App</span>
+        <h2>Diseño <span class="gradient-text">premium</span><br />sin concesiones</h2>
+      </div>
+      <div class="screenshots-grid">
+        <div class="screenshot-card screenshot-card--main">
+          <div class="screenshot-glow"></div>
+          <img src="assets/img/hero_mockup.png" alt="Pantalla del temporizador Fokus" />
+          <div class="screenshot-label">
+            <strong>Temporizador</strong>
+            <span>Anillo de progreso dinámico con cambios de color según la fase del ciclo</span>
+          </div>
+        </div>
+        <div class="screenshot-card">
+          <div class="screenshot-glow screenshot-glow--secondary"></div>
+          <img src="assets/img/tasks_mockup.png" alt="Gestión de tareas Fokus" />
+          <div class="screenshot-label">
+            <strong>Gestión de Tareas</strong>
+            <span>Sesiones individuales con barra de progreso y configuración por tramo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PALETTES ========== -->
+  <section class="palettes">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Personalización</span>
+        <h2>Hacela <span class="gradient-text">tuya</span></h2>
+        <p>Siete paletas premium diseñadas para cada estado de ánimo y hora del día.</p>
+      </div>
+      <div class="palettes-grid">
+        <div class="palette-chip" style="--p1:#7C4DFF;--p2:#FF6584;">🌑 Midnight</div>
+        <div class="palette-chip" style="--p1:#0EA5E9;--p2:#06D6A0;">🌊 Ocean</div>
+        <div class="palette-chip" style="--p1:#10D9C4;--p2:#B45EEE;">🌌 Aurora</div>
+        <div class="palette-chip" style="--p1:#FF6B35;--p2:#FFCC00;">🔥 Ember</div>
+        <div class="palette-chip" style="--p1:#E91E8C;--p2:#FF9EBC;">🌸 Sakura</div>
+        <div class="palette-chip" style="--p1:#22C55E;--p2:#84CC16;">🌲 Forest</div>
+        <div class="palette-chip" style="--p1:#94A3B8;--p2:#CBD5E1;">⚡ Titanium</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DOWNLOAD ========== -->
+  <section class="download" id="download">
+    <div class="section-container">
+      <div class="download-card">
+        <div class="download-orbs">
+          <div class="orb orb-dl-1"></div>
+          <div class="orb orb-dl-2"></div>
+        </div>
+        <div class="download-content">
+          <img src="assets/img/app_icon.png" alt="Fokus" class="download-icon" />
+          <h2>Empezá hoy.<br /><span class="gradient-text">Tu versión más productiva</span><br />te espera.</h2>
+          <p>Gratis. Sin publicidad invasiva. Sin necesidad de cuenta.</p>
+          <a href="https://play.google.com/store" class="btn-primary btn-xl" target="_blank" rel="noopener">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.35.19.74.24 1.12.16l12.93-7.47-2.79-2.79-11.26 10.1zM.32 1.22C.12 1.6 0 2.05 0 2.56v18.88c0 .51.12.96.32 1.34L.43 23l10.58-10.58v-.25L.43 1.6l-.11-.38zM20.23 9.85l-2.74-1.58-3.08 3.08 3.08 3.08 2.76-1.59c.79-.45.79-1.19-.02-1.99zM4.3.08L17.23 7.55 14.44 10.34 3.18.24C3.54.05 3.95.01 4.3.08z"/></svg>
+            Descargar en Google Play
+          </a>
+          <p class="download-note">Para Android · Mayores de 13 años</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="assets/img/app_icon.png" alt="Fokus" class="footer-icon" />
+        <span>Fokus</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="#features">Funciones</a>
+        <a href="#how-it-works">Método</a>
+        <a href="#screenshots">App</a>
+        <a href="privacy.html">Política de Privacidad</a>
+      </nav>
+      <div class="footer-copy">
+        <p>© 2025 Fokus. Todos los derechos reservados.</p>
+        <p>Aplicación de productividad. Apta para usuarios de 13 años o más.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
